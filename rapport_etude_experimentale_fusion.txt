@@ -1,0 +1,20 @@
+------------------------------------------------------------------------------------------------
+ - Construction de deux trie chaqu'un contient la moitier des mots des ouvrages:
+	Nombre de mots dans le premier Trie : 17072
+	Nombre de mots dans le deuxieme Trie : 17136
+------------------------------------------------------------------------------------------------
+ - Fusion des deux trie en un seul trie (PatriciaTrieSimpleArray), en mode parallèle :
+	Le temps moyen de cette operation pour 1000 executions : 10.415879669 millisecondes
+  Nombre de mots dans le nouveau Trie : 23086
+------------------------------------------------------------------------------------------------
+ - Fusion des deux trie en un seul trie (PatriciaTrieSimpleArray), en mode normal :
+	Le temps moyen de cette operation pour 1000 executions : 13.933825982999998 millisecondes
+  Nombre de mots dans le nouveau Trie : 23086
+------------------------------------------------------------------------------------------------
+ - Fusion des deux trie en un seul trie (PatriciaTrieTreeMap), en mode parallèle :
+	Le temps moyen de cette operation pour 1000 executions : 9.586576488 millisecondes
+  Nombre de mots dans le nouveau Trie : 23086
+------------------------------------------------------------------------------------------------
+ - Fusion des deux trie en un seul trie (PatriciaTrieTreeMap), en mode normal :
+	Le temps moyen de cette operation pour 1000 executions : 15.254043144999999 millisecondes
+  Nombre de mots dans le nouveau Trie : 23086

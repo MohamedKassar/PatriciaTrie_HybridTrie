@@ -1,0 +1,27 @@
+------------------------------------------------------------------------------------------------
+Construction du dictionaire de Shakspear
+------------------------------------------------------------------------------------------------
+Conversion du trie hybrid vers PatriciaTrieSimpleArray :
+  Nombre de mots dans le Trie obtenu: 23086
+	Le temps moyen de cette operation pour 1000 executions : 7.2180006919999995 millisecondes
+------------------------------------------------------------------------------------------------
+Conversion du trie hybrid vers PatriciaTrieTrieMap :
+  Nombre de mots dans le Trie obtenu: 23086
+	Le temps moyen de cette operation pour 1000 executions : 4.669897183 millisecondes
+------------------------------------------------------------------------------------------------
+Conversion du trie hybrid equilibre' vers PatriciaTrieSimpleArray :
+  Nombre de mots dans le Trie obtenu: 23086
+	Le temps moyen de cette operation pour 1000 executions : 6.512295787999999 millisecondes
+------------------------------------------------------------------------------------------------
+Conversion du trie hybrid equilibre' vers PatriciaTrieTrieMap :
+  Nombre de mots dans le Trie obtenu: 23086
+	Le temps moyen de cette operation pour 1000 executions : 4.589714544 millisecondes
+------------------------------------------------------------------------------------------------
+Conversion du patriciaTrieSimpleArray vers trie hybrid:
+  Nombre de mots dans le Trie obtenu: 23086
+	Le temps moyen de cette operation pour 1000 executions : 7.593589151 millisecondes
+------------------------------------------------------------------------------------------------
+Conversion du PatriciaTrieTrieMap vers trie hybrid:23086
+  Nombre de mots dans le Trie obtenu: 23086
+	Le temps moyen de cette operation pour 1000 executions : 6.86399758 millisecondes
+

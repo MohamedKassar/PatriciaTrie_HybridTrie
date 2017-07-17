@@ -1,0 +1,146 @@
+------------------------------------------------------------------------------------------------
+Construction du dictionaire de Shakspear : (le nombre total d'ajouts = 905534 mots)
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 154.52074358899998 millisecondes
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 246.15644814700002 millisecondes
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 148.3547001 millisecondes
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 176.211475159 millisecondes
+------------------------------------------------------------------------------------------------
+Comptage de mots : (parcours de toute la structure)
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 400.143478 microsecondes
+		 resultat : 23086
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 394.002789 microsecondes
+		 resultat : 23086
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 3.664786727 millisecondes
+		 resultat : 23086
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 3.465014513 millisecondes
+		 resultat : 23086
+------------------------------------------------------------------------------------------------
+Comptage de pointeurs vers null :
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 405.54990999999995 microsecondes
+		 resultat : 113525
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 400.625566 microsecondes
+		 resultat : 113525
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 2.104874342 millisecondes
+		 resultat : 1456945
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 117.699 nanosecondes
+		 resultat : 23086
+------------------------------------------------------------------------------------------------
+Lister les mots par ordre croissant :
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 3.4513628730000003 millisecondes
+		 resultat : Liste de mots
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 3.2489686669999998 millisecondes
+		 resultat : Liste de mots
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 7.575887476 millisecondes
+		 resultat : Liste de mots
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 7.047684488 millisecondes
+		 resultat : Liste de mots
+------------------------------------------------------------------------------------------------
+Comptage de feuilles :
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 443.827129 microsecondes
+		 resultat : 14164
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 420.61521799999997 microsecondes
+		 resultat : 14709
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 3.535983107 millisecondes
+		 resultat : 6028
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 3.518548883 millisecondes
+		 resultat : 6028
+------------------------------------------------------------------------------------------------
+Calcul de profondeur :
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 408.758815 microsecondes
+		 resultat : 38
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 403.460157 microsecondes
+		 resultat : 36
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 3.397705641 millisecondes
+		 resultat : 10
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 3.430456609 millisecondes
+		 resultat : 10
+------------------------------------------------------------------------------------------------
+Calcul de profondeur moyenne:
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 595.578483 microsecondes
+		 resultat : 17.212157582603783
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 566.794243 microsecondes
+		 resultat : 15.70201917193555
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 3.531271648 millisecondes
+		 resultat : 5.042302587923026
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 3.793515863 millisecondes
+		 resultat : 5.042302587923026
+------------------------------------------------------------------------------------------------
+Calculer le nombre de mots comancant par "reach":
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 2.0588249999999997 microsecondes
+		 resultat : 4
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 639.12 nanosecondes
+		 resultat : 4
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 5.616327 microsecondes
+		 resultat : 4
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 5.773382 microsecondes
+		 resultat : 4
+------------------------------------------------------------------------------------------------
+Lister les mots comancant par "reach":
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 4.082146 microsecondes
+		 resultat : [reach, reaches, reacheth, reaching]
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 3.945267 microsecondes
+		 resultat : [reach, reaches, reacheth, reaching]
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 7.528642 microsecondes
+		 resultat : [reach, reaches, reacheth, reaching]
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 6.557201 microsecondes
+		 resultat : [reach, reaches, reacheth, reaching]
+------------------------------------------------------------------------------------------------
+Recherche d'un mot existant "reach":
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 4.131041 microsecondes
+		 resultat : true
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 3.4966280000000003 microsecondes
+		 resultat : true
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 4.167224 microsecondes
+		 resultat : true
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 4.032411 microsecondes
+		 resultat : true
+------------------------------------------------------------------------------------------------
+Recherche d'un mot inexistant "ordinateur":
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 4.687729 microsecondes
+		 resultat : false
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 4.350521 microsecondes
+		 resultat : false
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 3.0998919999999996 microsecondes
+		 resultat : false
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 3.177183 microsecondes
+		 resultat : false
+------------------------------------------------------------------------------------------------
+Obtention de nombre de mots :
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 108.652 nanosecondes
+		 resultat : 23086
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 102.405 nanosecondes
+		 resultat : 23086
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 101.19 nanosecondes
+		 resultat : 23086
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 88.292 nanosecondes
+		 resultat : 23086
+------------------------------------------------------------------------------------------------
+L'ajout d'un nouveau mot "ordinateur" :
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 328.546 nanosecondes
+		 resultat : true
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 477.996 nanosecondes
+		 resultat : true
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 274.645 nanosecondes
+		 resultat : true
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 268.891 nanosecondes
+		 resultat : true
+------------------------------------------------------------------------------------------------
+L'ajout d'un mot deja existant "ordinateur" :
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 205.811 nanosecondes
+		 resultat : false
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 436.091 nanosecondes
+		 resultat : false
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 156.442 nanosecondes
+		 resultat : false
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 159.64 nanosecondes
+		 resultat : false
+------------------------------------------------------------------------------------------------
+Suppression des mots [reach, reaches, reacheth, reaching] :
+	- Trie Hybrid : 			Le temps moyen de cette operation pour 1000 executions : 17.245142 microsecondes
+		 resultat : true true true true
+	- Trie Hybrid avec equilibrage : 	Le temps moyen de cette operation pour 1000 executions : 15.620186 microsecondes
+		 resultat : true true true true
+	- Patricia-Trie (noeuds vecteur) : 	Le temps moyen de cette operation pour 1000 executions : 8.370139 microsecondes
+		 resultat : true true true true
+	- Patricia-Trie (noeuds TreeMap) : 	Le temps moyen de cette operation pour 1000 executions : 9.039421 microsecondes
+		 resultat : true true true true
